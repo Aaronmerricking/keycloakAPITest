@@ -31,10 +31,10 @@ cd ../../../tests
 # google-chrome -version
 
 echo "###### npm install to install all the Dependencies from package.json"
-npm install
+# npm install
 
 echo "###### RUNNING NIGHTWATCH TESTS ######"
 # npm test src/specs/API/Token.js src/specs/API/AddUser.js src/specs/API/ListUsers.js src/specs/API/ListUserWithID.js
-npm test src/specs/API/Token.js src/specs/API/AddUser.js
-npm test src/specs/API/Token.js src/specs/API/ListUsers.js src/specs/API/ListUserWithID.js
+npm test src/specs/API/Token.js src/specs/API/AddUser.js src/specs/API/ListUsers.js src/specs/API/ListUserWithID.js
+# npm test src/specs/API/Token.js src/specs/API/ListUsers.js src/specs/API/ListUserWithID.js
 # npm test src/specs/API/Token.js src/specs/API/ListUserWithID.js

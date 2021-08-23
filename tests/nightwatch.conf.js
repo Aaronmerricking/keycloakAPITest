@@ -10,6 +10,7 @@ module.exports = {
 
 	custom_commands_path: ["./commands","./node_modules/nightwatch-axe-verbose/src/commands"],
 	//page_objects_path: ["pages/UI","pages/API"],
+	// output_folder: ['/reports'],
 	
 
 	"exclude" : ["src/specs/Database", 

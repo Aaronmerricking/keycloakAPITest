@@ -27,8 +27,7 @@ module.exports = {
       
       axios(config)
       .then(function (response) {
-        // console.log(JSON.stringify(response.data[0].id));
-        console.log(JSON.stringify(response.data));
+        console.log(JSON.stringify(response.data[0].id));
         datavars.keycloak.userSearchid=JSON.stringify(response.data[0].id)
         // console.log(response);
         browser.assert.equal(200, response.status, `Response Status code is ${response.status}`);
